@@ -1,0 +1,79 @@
+/**
+ * Child Theme Variables
+ *
+ * Override parent theme variables and define new ones specific to the child theme.
+ */
+
+// Import parent theme variables first (from node_modules if using yarn/npm)
+// If not using node modules, you need to use a full path to the parent theme
+// @import "../../../parent-theme/assets/css/base/_variables";
+
+// Brand colors override
+$primary-color: #3366FF;        // Changed from parent theme's #0d6efd
+$secondary-color: #FF6B35;      // Changed from parent theme's #6c757d
+$success-color: #05A677;        // Changed from parent theme's #198754
+$info-color: #1CB8DC;           // Changed from parent theme's #0dcaf0
+$warning-color: #FFAA00;        // Changed from parent theme's #ffc107
+$danger-color: #DC3545;         // Same as parent theme
+
+// Grays
+$white: #FFFFFF;
+$gray-100: #F8F9FA;
+$gray-200: #E9ECEF;
+$gray-300: #DEE2E6;
+$gray-400: #CED4DA;
+$gray-500: #ADB5BD;
+$gray-600: #6C757D;
+$gray-700: #495057;
+$gray-800: #343A40;
+$gray-900: #212529;
+$black: #000000;
+
+// Font families override
+$font-family-base: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-headings: 'Poppins', $font-family-base;
+
+// Font sizes
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
+$font-size-sm: 0.875rem;
+$font-size-xs: 0.75rem;
+
+// Headings sizes override
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.75rem;
+$h4-font-size: 1.375rem;
+$h5-font-size: 1.125rem;
+$h6-font-size: 1rem;
+
+// Font weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Line heights
+$line-height-base: 1.6;        // Changed from parent theme's 1.5
+$line-height-sm: 1.25;
+$line-height-lg: 1.8;
+$line-height-headings: 1.3;    // Changed from parent theme's 1.2
+
+// Custom variables specific to child theme
+$header-height: 80px;
+$footer-padding: 60px;
+$border-radius-custom: 8px;    // Custom border radius for specific elements
+
+// Blog specific variables
+$blog-card-height: 400px;
+$featured-post-height: 500px;
+
+// Child theme specific components
+$card-hover-transition: transform 0.3s ease, box-shadow 0.3s ease;
+$card-hover-shadow: 0 10px 30px rgba($black, 0.1);
+
+// Custom animation speeds
+$animation-speed-fast: 200ms;
+$animation-speed-normal: 300ms;
+$animation-speed-slow: 500ms;

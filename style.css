@@ -1,0 +1,19 @@
+/**
+ * Theme Name: Child Theme
+ * Theme URI: https://yourcompany.com/child-theme
+ * Description: Child theme for Parent Theme
+ * Author: Your Team
+ * Author URI: https://yourcompany.com
+ * Template: parent-theme
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: child-theme
+ * Tags: custom-background, custom-logo, custom-menu, featured-images, block-styles
+ */
+
+/**
+ * IMPORTANT: This file is primarily for WordPress theme identification.
+ * The actual CSS styles are compiled from SCSS files in the /assets/scss directory.
+ * Do not add custom styles here as they will be lost when compiling.
+ */

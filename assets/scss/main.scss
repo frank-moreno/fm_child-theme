@@ -1,0 +1,33 @@
+/**
+ * Main Stylesheet
+ *
+ * This is the main entry point for all styles in the child theme.
+ * It imports all the partial files in the correct order.
+ */
+
+// Variables and overrides
+@import "variables";
+
+// Base styles
+@import "base/typography";
+@import "base/utils";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/content";
+
+// Components
+@import "components/buttons";
+@import "components/forms";
+@import "components/navigation";
+@import "components/cards";
+@import "components/widgets";
+
+// Templates
+@import "templates/home";
+@import "templates/blog";
+@import "templates/page";
+@import "templates/single";
+
+// Additional components can be added here
